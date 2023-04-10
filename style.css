@@ -20,6 +20,12 @@
   font-family: tradegothic, sans-serif;
 }
 
+body{
+    background-image: url('img/bg-starswras.png');
+    background-size: contain;
+    filter: blur(1);
+}
+
 .overlap {
   grid-column: 1;
   grid-row: 1;
@@ -44,7 +50,7 @@
 /*BB-8*/
 
 #the-droids{
-    background-color:#f5a623;
+   
     padding:50px
 }
 .container{
@@ -84,12 +90,12 @@
   
   .antenna {
     position: absolute;
-  top: -50px;
+    top: -50px;
     left: 50%;
-    width: 10px;
+    width: 8px;
     height: 50px;
   
-    background-color: #000000;
+    background-color: white;
   }
   
   .eye {
