@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -14,6 +15,9 @@
             extend: {
               margin: {
                 center : "O auto"
+              },
+              backgroundImage :{
+                cantina : 'src(img/cantina.jpeg'
               }
             }
           }
@@ -26,7 +30,7 @@
             <li><a href="#home" class="text-white">home</a></li>
             <li><a href="#the-ligth-saber" class="text-white">The light saber</a></li>
             <li><a href="#the-speed-light" class="text-white">The speed light</a></li>
-            <li><a href="#the-karaoke" class="text-white">The karaoke</a></li>
+            <li><a href="#the-droids" class="text-white">The Droids</a></li>
         </ul>
     </nav>
     <section id="home" class="flex items-center justify-center">
@@ -48,9 +52,24 @@
         <h2 class="text-white">The Speed light</h2>
 
     </section>
-    <section id="the karaoke">
-        <h2 class="text-white">The Karaoke</h2>
-
+    <section id="the-droids" class="">
+      <h2 class="text-5xl"> The Droids </h2>
+      <div class="bg-black w-1/2 h-1 ml-10 mt-2"></div>
+      <h3 class="text-2xl ml-10 mt-4">Discover BB-8</h3>
+      <div class="container">
+        <div class="bb8">
+          <div class="head">
+            <div class="antenna"></div>
+            <div class="eye"></div>
+            <div class="second-eye"></div>
+          </div>
+          <div class="body">
+            <div class="third-circle"></div>
+          </div>
+         
+        </div>
+        <p class="text">BB-8 (or Beebee-Ate) is a droid character in the Star Wars franchise. He appeared in the three films of the sequel trilogy, Star Wars: The Force Awakens (2015), Star Wars: The Last Jedi (2017), and Star Wars: The Rise of Skywalker (2019). He also appeared as a major supporting character in the animated series Star Wars Resistance, appearing in the first 17 episodes of season 1. He is a BB astromech droid serving the Resistance, and is owned by Poe Dameron. Spherical with a free-moving domed head, BB-8 is portrayed by both a rod puppet and a remote-controlled robotic unit. The character has been well received by critics and fans, and has become one of the most beloved and recognizable characters of the Star Wars saga in recent years.</p>
+      </div>
     </section>
 
     <script src="script.js"></script>
