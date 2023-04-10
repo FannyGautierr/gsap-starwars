@@ -24,6 +24,7 @@
   </script>
 </head>
 <body class="bg-black">
+<video src="./video/hyperspace.mp4" class="fixed top-0 left-0 w-full h-screen object-cover z-50 pointer-events-none opacity-0"></video>
 <nav class="absolute w-full">
   <ul class="flex flex-row justify-around items-center gap-4 p-4 sticky top-0 bg-black ">
     <li><a href="#home" class="text-white">home</a></li>
@@ -35,7 +36,7 @@
 <section id="home" class="flex items-center justify-center h-screen">
   <img src="img/starwars.png" alt="">
 </section>
-<section id="the-ligth-saber" class="h-screen max-w-6xl m-auto p-12">
+<section id="the-ligth-saber" class="min-h-screen max-w-6xl m-auto p-12">
   <h2 class="text-white font-jedi text-5xl">The Light Saber</h2>
   <div class="light-saber-grid grid w-full items-center py-16">
     <img src="./img/lightsaber-handle.png" alt="" class="light-saber-handle overlap h-20 translate-y-1">
@@ -56,8 +57,16 @@
     have made it an iconic symbol of the Jedi Order and their code of peace, justice, and knowledge.
   </p>
 </section>
-<section id="the-speed-light">
-  <h2 class="text-white">The Speed light</h2>
+<section id="the-speed-light" class="min-h-screen max-w-6xl m-auto p-12">
+  <h2 class="text-white font-jedi text-5xl">Hyperspace</h2>
+  <p class="text-[#43a5cf] text-3xl text-justify mt-12">
+    Hyperspace is a revolutionary technology that has enabled space travel in the Star Wars universe. It allows
+    spacecraft to enter a parallel dimension called hyperspace, where the laws of physics are different, and distances
+    can be traveled in a fraction of the time it would take in normal space.
+  </p>
+  <div class="flex justify-center mt-32">
+    <button class="hyperspace-button text-2xl text-[#43a5cf] text-bold uppercase p-3 border-2 border-[#43a5cf] stripped">Travel to hyperspace</button>
+  </div>
 
 </section>
 <section id="the-karaoke">

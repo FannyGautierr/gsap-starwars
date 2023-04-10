@@ -40,3 +40,31 @@
   grid-column: 2;
   grid-row: 1;
 }
+
+.stripped {
+  background-size: 40px 40px;
+  background-image: linear-gradient(
+          -45deg,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0) 25%,
+          rgba(67, 165, 207, 0.1) 25%,
+          rgba(67, 165, 207, 0.1) 50%,
+          rgba(0, 0, 0, 0) 50%,
+          rgba(0, 0, 0, 0) 75%,
+          rgba(67, 165, 207, 0.1) 75%,
+          rgba(67, 165, 207, 0.1));
+  background-repeat: repeat;
+}
+
+.stripped:hover {
+  background-image: linear-gradient(
+          -45deg,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0) 25%,
+          rgba(67, 165, 207, 0.2) 25%,
+          rgba(67, 165, 207, 0.2) 50%,
+          rgba(0, 0, 0, 0) 50%,
+          rgba(0, 0, 0, 0) 75%,
+          rgba(67, 165, 207, 0.2) 75%,
+          rgba(67, 165, 207, 0.2));
+}
