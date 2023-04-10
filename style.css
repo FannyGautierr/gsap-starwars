@@ -20,6 +20,12 @@
   font-family: tradegothic, sans-serif;
 }
 
+body{
+    background-image: url('img/bg-starswras.png');
+    background-size: contain;
+    filter: blur(1);
+}
+
 .overlap {
   grid-column: 1;
   grid-row: 1;
@@ -68,3 +74,139 @@
           rgba(67, 165, 207, 0.2) 75%,
           rgba(67, 165, 207, 0.2));
 }
+
+/*BB-8*/
+
+#the-droids{
+
+    padding:50px
+}
+.container{
+    display : flex ;
+    justify-content : start;
+    align-items:center;
+
+    height : 500px
+
+  }
+
+  .hoverhim{
+    z-index: 1;
+    left: 40%;
+
+  }
+
+  .bb8 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    border-radius: 50%;
+    margin : auto 0;
+
+  }
+
+  .head {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+
+  .antenna {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 8px;
+    height: 50px;
+
+    background-color: white;
+  }
+
+  .eye {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+  .second-eye{
+    position : absolute;
+     top: 40%;
+    left: 70%;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+
+  .body {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #ffffff;
+    overflow:hidden
+  }
+
+  .foot {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000000;
+  }
+
+  .body::before,
+  .body::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border : solid 13px ;
+    border-color:#f5a623
+  }
+  .third-circle{
+    position: absolute;
+    top: 25%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border : solid 13px ;
+    border-color:#f5a623;
+    left:60%;
+    top:12%
+  }
+
+  .body::before {
+    left: -15%;
+    top:18%
+  }
+
+  .body::after {
+    right: 15%;
+    top: 67%
+  }
+
+
+  .text{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    width: 40%;
+    left: 55%;
+    line-height: 2rem;
+    margin: 10px;
+  }
+
